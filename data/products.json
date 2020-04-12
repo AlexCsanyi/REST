@@ -1,23 +1,27 @@
 [
   {
+    "id": "124545",
     "title": "Eloquent JavaScript",
     "imageUrl": "https://source.unsplash.com/RrhhzitYizg/150x350",
     "price": "20.00",
     "description": "testing more"
   },
   {
+    "id": "1242323",
     "title": "Maps of Meaning: The Architecture of Belief",
     "imageUrl": "https://source.unsplash.com/RrhhzitYizg/150x350",
     "price": "45.00",
     "description": "An amazing book"
   },
   {
+    "id": "1245333",
     "title": "Book of Mormon",
     "imageUrl": "https://source.unsplash.com/RrhhzitYizg/150x350",
     "price": "12.45",
     "description": "An amazing story of a Mormon family."
   },
   {
+    "id": "1245",
     "title": "The Cat Lady",
     "imageUrl": "https://source.unsplash.com/RrhhzitYizg/150x350",
     "price": "9.99",
