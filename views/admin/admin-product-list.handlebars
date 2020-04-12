@@ -4,20 +4,25 @@
         {{#each prods}}
         <article class="card">
             <header class="card__header">
-                <h1 class="product__title">Title: {{ this.title }}</h1>
+                <h1 class="product__title">Title:</h1>
+                <span>{{ this.title }}</span>
             </header>
             <div class="card__image">
                 <img src="https://source.unsplash.com/RrhhzitYizg/150x350" alt="books">
             </div>
             <div class="card__content">
-                <h2 class="product__price">Price: $19.99</h2>
-                <p class="product__description">Description:<br>
-                    A very interesting book about so many even more interesting things!
-                </p>
-                <p>Image source:<br>https://source.unsplash.com/RrhhzitYizg/150x350</p>
+                <h2 class="product__price">Price:</h2>
+                <span>£{{this.price}}</span>
+                <h2 class="product__description">Description:</h2>
+                <span>{{this.description}}</span>
+                <h2 class="product__imageUrl">Image URL:</h2>
+                <span>{{this.imageUrl}}</span>
             </div>
             <div class="card__actions">
-                <button class="btn">Edit Product</button>
+                <button class="btn"><a href="/admin/edit-product">Edit Product</a></button>
+                <form action="/admin/delete-product" type='POST'>
+                    <button type="submit" class="btn">Delete Product</button>
+                </form>
             </div>
         </article>
         {{/each}}

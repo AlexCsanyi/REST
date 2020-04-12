@@ -6,8 +6,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: #edf5e1;
-  background-color: #5cdb95;
+  color: #5cdb95;
+  background-color: #edf5e1;
 }
 
 main {
@@ -68,6 +68,8 @@ main {
   text-align: center;
   width: 550px;
   height: 550px;
+  background-color: #5cdb95;
+  color: #edf5e1;
 }
 
 .card__header,
@@ -99,6 +101,8 @@ main {
 .card__actions {
   padding: 1rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .card__actions button,
@@ -122,4 +126,14 @@ main {
   background-color: #edf5e1;
   color: #05386b;
   border: 1px solid #edf5e1;
+}
+
+.btn a {
+  color: #edf5e1;
+  text-decoration: none;
+}
+
+.btn a:hover,
+.btn a:focus {
+  color: #05386b;
 }

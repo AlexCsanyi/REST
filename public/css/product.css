@@ -9,7 +9,9 @@
   text-align: center;
 }
 
-.product__price {
+.product__price,
+.product__description,
+.product__imageUrl {
   text-align: center;
   color: #05386b;
   margin-bottom: 0.5rem;

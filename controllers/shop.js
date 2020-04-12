@@ -42,3 +42,11 @@ exports.getCheckout = (req, res, next) => {
     activeCheckout: true,
   });
 };
+
+exports.getOrders = (req, res, next) => {
+  res.render("shop/orders", {
+    pageTitle: "Your Past Orders",
+    path: "/orders",
+    activeOrders: true,
+  });
+};
